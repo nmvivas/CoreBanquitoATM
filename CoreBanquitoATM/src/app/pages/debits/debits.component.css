@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    height: calc(100vh - 60px);
+    padding: 1%;
+    margin-left: 25%;
+    position: relative;
+    font-size: 20px;
+}
+
+.icon-side {
+    font-size: 350px;
+    overflow: visible;
+    color: #FCBE18;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+
+}

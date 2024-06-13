@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 60px);
+  padding: 1%;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #338C9E;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.content h2 {
+  font-size: 25px;
+  margin-left: 4%;
+
+}
+
+.icon-side {
+  font-size: 300px;
+  overflow: visible;
+  color: #FCBE18;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 10%;
+  left: 30%;
+
+}
+
+.options {
+  margin: auto;
+}
+
+.options button {
+  border: none;
+  padding: 5%;
+  font-size: 30px;
+  background-color: white;
+  margin-top: 30px;
+  text-align: left;
+  width: 150%
+}
+
+.options mat-icon {
+  font-size: 30px;
+  overflow: visible;
+  color: #FCBE18;
+}

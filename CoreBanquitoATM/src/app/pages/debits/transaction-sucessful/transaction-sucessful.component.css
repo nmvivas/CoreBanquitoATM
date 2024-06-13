@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    height: auto;
+    padding: 1%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.icon-side {
+    font-size: 350px;
+    overflow: visible;
+    color: #FCBE18;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+
+}

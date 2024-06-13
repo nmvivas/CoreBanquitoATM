@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="/assets/blacklogo-BanQuito-removebg.png" alt="logo" />
+            <h1>BANCO BANQUITO</h1>
+        </div>
+    </div>
+    <div class="content">
+        <h2>ELIJA EL TIPO DE TRANSACCION</h2>
+        <section>
+            <mat-icon class="icon-side">pan_tool_alt</mat-icon>
+        </section>
+        <section class="options">
+            <mat-icon>arrow_forward_ios <button (click)="goToDebits()"> Retiros </button> </mat-icon> <br>
+            <mat-icon>arrow_forward_ios <button (click)="goToServicePay()"> Pagos de Servicios </button> </mat-icon><br>
+            <mat-icon>arrow_forward_ios <button (click)="goToConsults()"> Consulta de Saldo </button> </mat-icon><br>
+            <mat-icon>arrow_forward_ios <button (click)="goToDeposits()"> Transaccion sin tarejta </button> </mat-icon>
+            <br>
+        </section>
+    </div>
+</div>

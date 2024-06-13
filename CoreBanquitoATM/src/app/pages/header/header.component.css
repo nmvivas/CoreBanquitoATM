@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  
+}
+.content {
+  display: flex;
+  height: calc(100vh - 60px);
+  padding: 1%;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #338C9E;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+h1{
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+
+
+
+
