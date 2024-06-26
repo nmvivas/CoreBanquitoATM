@@ -1,0 +1,85 @@
+
+.content {
+    display: flex;
+    height: auto;
+    padding: 1%;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  
+  .content h2 {
+    font-size: 25px;
+    margin-left: 4%;
+  
+  }
+  
+  .icon-side {
+    font-size: 300px;
+    overflow: visible;
+    color: #FCBE18;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 15%;
+    left: 25%;
+  
+  }
+  
+  .options {
+    
+    margin-top: 15%;
+    margin-left: 40%;
+  }
+  
+  .options button {
+    border: none;
+    padding: 5%;
+    font-size: 30px;
+    background-color: white;
+    margin-top: 30px;
+    text-align: left;
+    width: 150%
+  }
+  
+  .options mat-icon {
+    font-size: 30px;
+    overflow: visible;
+    color: #FCBE18;
+  }
+
+  .footer {
+    margin: auto;
+    display: flex;
+}
+
+.button_clean {
+    width: 50%;
+    margin-top: auto;
+    margin-left: 10%;
+
+}
+.footer button{
+    border: none;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.footer mat-icon{
+    font-size: 40px;
+    overflow: visible;
+    color: #FCBE18;
+}
+
+.icon-left{
+    font-size: 40px;
+    overflow: visible;
+    color: #FCBE18;
+    transform: rotate(180deg);
+
+}

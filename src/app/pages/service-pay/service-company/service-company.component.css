@@ -1,22 +1,20 @@
 .content {
-    display: flex;
-    height: calc(100vh - 60px);
+    height: auto;
     padding: 1%;
-    margin-left: 25%;
+    margin-left: 30%;
     position: relative;
     font-size: 20px;
 }
 
 .icon-side {
-    font-size: 350px;
+    font-size: 200px;
     overflow: visible;
     color: #FCBE18;
     position: absolute;
-    top: 15%;
-    left: 18%;
+    top: 170%;
+    left: 15%;
 
 }
-
 
 .input-pad {
     position: absolute;
