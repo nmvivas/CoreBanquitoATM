@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-exit',
@@ -9,5 +10,12 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './exit.component.css'
 })
 export class ExitComponent {
+
+  constructor(private router: Router) { }
+
+  next = () => {
+    this.router.navigate(['transaction-sucessful']);
+  }
+
 
 }

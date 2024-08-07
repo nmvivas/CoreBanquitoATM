@@ -16,3 +16,46 @@
     left: 18%;
 
 }
+
+.footer {
+    margin: auto;
+    display: flex;
+}
+
+.button_clean {
+    width: 50%;
+    margin-top: auto;
+    margin-left: 10%;
+
+}
+
+.button_next {
+    width: 50%;
+    margin-top: 400px;
+    margin-left: 50%;
+
+
+}
+
+.footer button{
+    border: none;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.footer mat-icon{
+    font-size: 40px;
+    overflow: visible;
+    color: #FCBE18;
+}
+
+.icon-left{
+    font-size: 40px;
+    overflow: visible;
+    color: #FCBE18;
+    transform: rotate(180deg);
+
+}
+

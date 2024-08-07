@@ -1,13 +1,7 @@
 <div class="content">
     <h2>INGRESE SU TARJETA, NO LA RETIRE Y SIGA LAS INSTRUCCIONES</h2>
     <section>
-        <mat-icon class="icon-side">credit_card</mat-icon>
+        <mat-icon (click)="next()" class="icon-side">credit_card</mat-icon>
     </section>
 </div>
-<div class="footer-main">
-    <div class="footer">
-        <section class="button_next">
-            <button (click)="next()"> Continuar </button><mat-icon>play_circle</mat-icon>
-        </section>
-    </div>
-</div>
+

@@ -12,10 +12,6 @@ import { Router } from '@angular/router';
 export class DebitsCheckComponent {
   constructor( private router: Router) {}
 
-  back = () => {
-    this.router.navigate(['main']);
-  }
-
   next = () => {
     this.router.navigate(['exit']);
   }
