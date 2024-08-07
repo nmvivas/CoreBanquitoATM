@@ -1,9 +1,11 @@
 <div class="content">
     <h2>INGRESE EL VALOR A RETIRAR</h2>
     <h3>En múltiples de $10</h3>
-    <div>
-        <input class="input-pad" type="text">
-    </div>
+    <form [formGroup]="form">
+        <div>
+            <input class="input-pad" type="number" formControlName="amount">
+        </div>
+    </form>
     <section>
         <mat-icon class="icon-side">dialpad</mat-icon>
     </section>
