@@ -21,12 +21,12 @@ export class DebitsCheckComponent {
   next = () => {
     const account = this.sharedDebitService.getAccount();
     const debit = {
-      accountId: account?.id,
-      codeChannel: 'CHA00768934',
+      accountId: '180',
+      codeChannel: 'CHA0076893',
       transactionType: 'DEB',
       reference: 'RETIRO ATM',
       amount: this.sharedDebitService.getAmount(),
-      creditorAccount: '2249598696',
+      creditorAccount: '2288581103', 
       debitorAccount: account?.codeInternalAccount,
       status: 'PEN',
       comission: 0,
